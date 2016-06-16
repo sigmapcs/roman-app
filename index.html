@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Román Salcido y Cía. </title>
+    <link rel="icon" href="icon.png">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!--script(type='text/javascript', src='js/ajax.js')-->
+  </head>
+  <body>
+    <div class="cargando" id="cargando"></div>
+    <div class="noconectado" id="noconectado">
+        <p>Es necesario contar con una conexion activa a internet</p>
+    </div>
+    <header class="header">
+      <ul class="header__menu">
+        <li><a href="#noticias" class="icon-news"></a></li>
+        <li><a href="#leyes" class="icon-law"></a></li>
+        <li><a href="#videos" class="icon-youtube-play"></a></li>
+        <li><a href="#contacto" class="icon-mail"></a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="noticias" class="noticias">
+        <div class="not-container">
+          <div id="ptwitter" class="noticias__portada">
+            <div id="plogo" class="noticias__portada--logo"></div>
+          </div><a class="twitter-timeline" href="https://twitter.com/RomanDespacho" data-widget-id="695326613966225408">Tweets por el @RomanDespacho.</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </section>
+      <section id="leyes" class="leyes">
+        <h2>Compendio de Leyes</h2>
+        <div id="leyescontainer" class="leyes__container"></div>
+      </section>
+      <section id="videos" class="videos">
+        <h2>videos</h2>
+        <div id="videoscontainer" class="videos__container">
+          <!--<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/wzxHWFkVjVo" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/PWmRy44zzPM" frameborder="0" allowfullscreen></iframe></div>-->
+        </div>
+      </section>
+      <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto__img"><img src="img/roman.png" alt=""></div><a href="http://www.roman.com.mx" target="_blank" class="contacto__web">www.roman.com.mx</a>
+        <ul class="contacto__redes">
+          <li class="fb"><a href="https://www.facebook.com/Rom%C3%A1n-Salcido-y-C%C3%ADa-226673184046769/?fref=nf" target="_blank" class="icon-facebook"></a></li>
+          <li class="tw"><a href="https://twitter.com/RomanDespacho" target="_blank" class="icon-twitter"></a></li>
+          <li class="li"><a href="https://www.linkedin.com/company/dawson-consultores-rom-n-solis-garc-a-vel-zquez-s-c-" target="_blank" class="icon-linkedin"></a></li>
+          <li class="yt"><a href="https://www.youtube.com/channel/UCfeRpzaYKaOS5MKhMGawMLA" target="_blank" class="icon-youtube-play"></a></li>
+        </ul>
+        <div id="info" class="icon-info info"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h1>Román Salcido y Cía.</h1>
+    </footer>
+    <aside id="developer" class="aside developer">
+      <div id="acontainer" class="developer__container">
+        <div id="close" class="icon-close"></div>
+        <p class="developer__container--text">Desarrollado Por:</p><a href="http://sigmapcs.com.mx" target="_blank" class="developer__container--img"><img src="img/sigmapcs.png" alt=""></a>
+      </div>
+    </aside>
+    <!--script(type='text/javascript', src='cordova.js')-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
